@@ -1,6 +1,6 @@
 import Metric from '../models/Metrics.js';
 
-// Random number generator helper
+// Random number generator helper 
 const getRandom = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 const severities = ['LOW', 'MEDIUM', 'HIGH', 'CRITICAL'];
